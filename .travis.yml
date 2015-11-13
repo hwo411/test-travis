@@ -1,3 +1,8 @@
 language: ruby
 script:
   - echo done
+
+branches:
+  only:
+    - master
+    - develop
